@@ -486,12 +486,12 @@ int main() {
 		//cout << line;
 
 		string listName, action, anotherListName;
-		int num1 = 0;
+		int num1 = 0;		
 		int num2 = 0;
-		size_t last = 0;
+		size_t last = 0;	
 		size_t next = 0;
 		newList temp;
-		// Initailizer case
+		// Initailizer case		
 		if(line.find(initializer) != string::npos) {
 
 			next = line.find(initializer, last);
@@ -540,7 +540,7 @@ int main() {
 
 //				cout << " -> " << listName << " " << action
 //				     << " " << num1 << " " << num2 << endl;
-			}
+			}		
 			actionByList(Lists, listName, action, num1, num2, anotherListName);
 		}
 

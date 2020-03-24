@@ -1,11 +1,4 @@
-//  Created by Frank M. Carrano and Tim Henry.
-//  Copyright (c) 2013 __Pearson Education__. All rights reserved.
 
-// Listing 12-1
-
-/** Interface for the ADT sorted list
- @file SortedListInterface.h */
- 
 #ifndef _SORTED_LIST_INTERFACE
 #define SORTED_LIST_INTERFACE
 
